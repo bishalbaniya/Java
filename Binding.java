@@ -6,7 +6,7 @@ class Class1 {
 }
 
 class Parent {
-    void displayParent() {
+   public void displayParent() {
         System.out.println("Dispaly from the parent");
     }
 
@@ -25,6 +25,5 @@ public class Binding {
         c1.displayParent();
         c1.displayChild();
         Class1.disply();
-
     }
 }
